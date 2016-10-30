@@ -16,4 +16,8 @@
 #### Install project specific lint config
 1. `npm install --save-dev eslint-config-rallycoding`
 2. create .eslintrc in project
-3. 
+```
+{
+  "extends" : "rallycoding"
+}
+```
